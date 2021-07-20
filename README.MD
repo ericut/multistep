@@ -19,17 +19,17 @@ Hook `useMultiStepForm`
 
 ![Listagem](https://github.com/ericut/multistep/blob/master/.doc/imgs/useMultiStepForm.png)
 
-• `previousStep()` ir para o passo anterior
-• `nextStep()` ir para o próximo passo
-• `resetSteps()` ir para o passo inicial
-• `goToStep()` ir para o passo selecionado
-• `firstStep` verificador se é o primeiro passo [boolean]
-• `finalStep` verificador se é o último passo [boolean]
+- `previousStep()` ir para o passo anterior
+- `nextStep()` ir para o próximo passo
+- `resetSteps()` ir para o passo inicial
+- `goToStep()` ir para o passo selecionado
+- `firstStep` verificador se é o primeiro passo [boolean]
+- `finalStep` verificador se é o último passo [boolean]
 
 ### Instalação
 
-• `npm install` instalar depêndencias
-• `npm run start` rodar projeto
+- `npm install` instalar depêndencias
+- `npm run start` rodar projeto
 
 ### Bibliotecas
 
@@ -37,4 +37,4 @@ Hook `useMultiStepForm`
 
 ### Futuras implementações
 
-• Passar valores de estilização para customização das cores
+- Passar valores de estilização para customização das cores
