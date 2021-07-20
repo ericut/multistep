@@ -6,18 +6,18 @@ Componente para controle de formulários que necessitam ser utilizado como "Pass
 
 Imagens do passo a passo
 
-| ![Primeiro passo](https://github.com/ericut/multistep/blob/master/.doc/imgs/step1.png) | ![Outro passo](https://github.com/ericut/multistep/blob/master/.doc/imgs/step2.png) |
-| -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| ![Primeiro passo](https://github.com/ericut/multistepform/blob/master/.doc/imgs/step1.png) | ![Outro passo](https://github.com/ericut/multistepform/blob/master/.doc/imgs/step2.png) |
+| ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
 
 ### Listagem de passos
 
-![Listagem](https://github.com/ericut/multistep/blob/master/.doc/imgs/stepslist.png)
+![Listagem](https://github.com/ericut/multistepform/blob/master/.doc/imgs/stepslist.png)
 
 ### Hooks
 
 Hook `useMultiStepForm`
 
-![Listagem](https://github.com/ericut/multistep/blob/master/.doc/imgs/useMultiStepForm.png)
+![Listagem](https://github.com/ericut/multistepform/blob/master/.doc/imgs/useMultiStepForm.png)
 
 - `previousStep()` ir para o passo anterior
 - `nextStep()` ir para o próximo passo

@@ -9,6 +9,7 @@ tsconfig.json
 .prettierrc
 package-lock.json
 .editorconfig
+/build
 
 # include package target files which may be required for msbuild,
 # again prefixing the folder name as needed.
