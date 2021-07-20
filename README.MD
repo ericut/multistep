@@ -1,23 +1,40 @@
-# Multi Step Form with Chakra UI
+## Multistep Form Wizard
 
-Multi Step Form made with Chakra UI
+Componente para controle de formulários que necessitam ser utilizado como "Passo a Passo". Desenvolvido em React e Chakra.
 
-### Showcase
+### Vizualização de Exemplo
 
-First Step Page
+Imagens do passo a passo
 
-![Start Step Page](https://github.com/ericut/multistep/blob/master/public/assets/imgs/step1.png?raw=true)
+| ![Primeiro passo](https://github.com/ericut/multistep/blob/master/.doc/imgs/step1.png) | ![Outro passo](https://github.com/ericut/multistep/blob/master/.doc/imgs/step2.png) |
+| -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 
-Another Step Page
+### Listagem de passos
 
-![Another Step Page](https://github.com/ericut/multistep/blob/master/public/assets/imgs/step2.png?raw=true)
+![Listagem](https://github.com/ericut/multistep/blob/master/.doc/imgs/stepslist.png)
 
-### Running
+### Hooks
 
-Installing dependencies `npm install`
+Hook `useMultiStepForm`
 
-Running repo `npm run start`
+![Listagem](https://github.com/ericut/multistep/blob/master/.doc/imgs/useMultiStepForm.png)
 
-### Libraries
+• `previousStep()` ir para o passo anterior
+• `nextStep()` ir para o próximo passo
+• `resetSteps()` ir para o passo inicial
+• `goToStep()` ir para o passo selecionado
+• `firstStep` verificador se é o primeiro passo [boolean]
+• `finalStep` verificador se é o último passo [boolean]
 
-Chakra Ui - https://chakra-ui.com/
+### Instalação
+
+• `npm install` instalar depêndencias
+• `npm run start` rodar projeto
+
+### Bibliotecas
+
+[Chakra Ui](https://chakra-ui.com/)
+
+### Futuras implementações
+
+• Passar valores de estilização para customização das cores
